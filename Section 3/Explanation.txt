@@ -1,0 +1,9 @@
+Explanation : to optimize the query we had used indexing.
+
+"CREATE INDEX idx_orders_user_id ON orders(user_id);"
+
+why indexing ?
+because indexes are important for improving the performance of database queries,
+especially those that involve filtering.
+In this case we need an index on the user_id column because the query filters by user_id.
+I we don't use indexing the database would have to check a full table.

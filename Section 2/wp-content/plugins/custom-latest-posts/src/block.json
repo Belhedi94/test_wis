@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "myplugin/custom-latest-posts",
+	"version": "0.1.0",
+	"title": "Custom Latest Posts",
+	"category": "widgets",
+	"description": "Plugin to show the latest posts",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "custom-latest-posts",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
