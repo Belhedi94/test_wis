@@ -10,8 +10,8 @@ You can check or update the database name in the .env file.
 Section 2:
 1)Copy the folder into your local server directory.
 2)If you're using XAMPP, place it inside the htdocs subfolder in the XAMPP directory.
-3)run npm install to install all the dependencies
-4)run npm run build
+3)run npm install to install all the dependencies.
+4)run npm run build.
 
 Section 3:
 This section contains two files:
